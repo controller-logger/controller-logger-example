@@ -1,8 +1,7 @@
 package com.harshil.controllerloggerconsumer.controller;
 
-import io.github.harshilsharma63.logger.controller.annotation.Logging;
-import io.github.harshilsharma63.logger.controller.annotation.NoLogging;
-import org.springframework.stereotype.Controller;
+import io.github.logger.controller.annotation.Logging;
+import io.github.logger.controller.annotation.NoLogging;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;

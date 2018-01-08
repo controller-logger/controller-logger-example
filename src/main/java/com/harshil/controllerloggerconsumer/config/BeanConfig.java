@@ -1,6 +1,6 @@
 package com.harshil.controllerloggerconsumer.config;
 
-import io.github.harshilsharma63.logger.controller.aspect.GenericControllerAspect;
+import io.github.logger.controller.aspect.GenericControllerAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
