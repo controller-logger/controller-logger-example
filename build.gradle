@@ -15,17 +15,20 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 group = 'com.harshil'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
 sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-	compile 'io.github.harshilsharma63:controller-logger:1.1.0'
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile 'io.github.harshilsharma63:controller-logger:1.2.0'
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 bootRun {
