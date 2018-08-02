@@ -26,7 +26,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-security')
-    compile 'io.github.harshilsharma63:controller-logger:1.2.1'
+    compile 'io.github.harshilsharma63:controller-logger:1.2.3'
     compile group: 'io.github.benas', name: 'random-beans', version: '3.7.0'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.16.20'
 
